@@ -45,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="• SMA Cenderawasih 1 Jakarta (2021–2024)\n• Universitas Brawijaya - Fakultas Ilmu Komputer -  Teknologi Informasi (2024–Sekarang)"
-            android:textSize="18sp"
+            android:textSize="19sp"
             android:lineSpacingExtra="4dp"/>
 
         <TextView
