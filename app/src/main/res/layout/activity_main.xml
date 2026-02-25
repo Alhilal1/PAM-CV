@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="50dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/foto_diri" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama: Alhilal Zandi Basyir Kiat"
+            android:textSize="22sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIM: 245150700111014"
+            android:textSize="22sp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Riwayat Pendidikan"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• SMA Cenderawasih 1 Jakarta (2021–2024)\n• S1 Teknologi Informasi (2024–2028)"
+            android:textSize="18sp"
+            android:lineSpacingExtra="4dp"/>
+
+        <TextView
+            android:layout_wid  th="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Riwayat Organisasi"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Staff KBMDSI 2025\n• BPH KBMDSI 2026"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</ScrollView>
