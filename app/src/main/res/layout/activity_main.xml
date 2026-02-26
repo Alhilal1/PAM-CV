@@ -1,67 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#F2F2F2">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center_horizontal"
-        android:padding="50dp">
+        android:padding="30dp">
 
-        <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:layout_marginBottom="20dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/foto_diri" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="110dp"
+                android:src="@drawable/foto_diri"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="12dp"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ALHILAL ZANDI"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mahasiswa Teknologi Informasi \nNIM : 245150700111014"
+                    android:textColor="#666666"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#000000"
+            android:layout_marginBottom="12dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nama: Alhilal Zandi Basyir Kiat"
-            android:textSize="22sp"
-            android:layout_marginBottom="10dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="NIM: 245150700111014"
-            android:textSize="22sp"
-            android:layout_marginBottom="10dp"/>
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Riwayat Pendidikan"
+            android:text="Experience"
+            android:textSize="20sp"
             android:textStyle="bold"
-            android:textSize="22sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KBMDSI"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wakil Kepala Departemen Keilmuan dan Pengajaran"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Februari 2026 - Sekarang"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Bertugas sebagai Wakil ketua departemen Keilmuan dan Pengajaran, mendukung berbagai kegiatan himpunan mahasiswa dan memonitoring staff KBMDSI terutama di departemen Keilmuan dan Pengajaran."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KBMDSI"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Staff Ahli"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maret 2025 - Desember 2025"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Menjadi Wakil ketua pelaksana dalam program kerja Mahasiswa Mengajar\n• Berkontribusi dalam diskusi dan pengambilan keputusan terkait program kerja yang ada"
+            android:layout_marginBottom="12dp"/>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#000000"
             android:layout_marginTop="20dp"
-            android:layout_marginBottom="8dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="• SMA Cenderawasih 1 Jakarta (2021–2024)\n• Universitas Brawijaya - Fakultas Ilmu Komputer -  Teknologi Informasi (2024–Sekarang)"
-            android:textSize="19sp"
-            android:lineSpacingExtra="4dp"/>
+            android:layout_marginBottom="12dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Riwayat Organisasi"
+            android:text="Education"
+            android:textSize="20sp"
             android:textStyle="bold"
-            android:textSize="22sp"
-            android:layout_marginTop="35dp"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="10dp"/>
+
+        <!-- UB -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universitas Brawijaya"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agustus 2024 - Present"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="• Staff KBMDSI 2025\n• BPH KBMDSI 2026"
-            android:textSize="20sp"/>
+            android:text="Undergraduate Computer Science in Technology Information"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- SMA -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMA Cenderawasih 1 Jakarta"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Juni 2022 - Juni 2024"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lulus di jurusan Ilmua Pengetahuan Alam (IPA), dengan fokus pembelajaran di matematika, fisika , dan biologi"/>
+
     </LinearLayout>
 
 </ScrollView>
